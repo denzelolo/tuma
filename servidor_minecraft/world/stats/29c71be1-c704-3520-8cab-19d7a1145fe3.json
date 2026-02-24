@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:stone_axe": 23,
+      "minecraft:crafting_table": 3,
+      "minecraft:wooden_pickaxe": 29,
+      "minecraft:oak_planks": 5,
+      "minecraft:porkchop": 1,
+      "minecraft:white_bed": 1,
+      "minecraft:stone_pickaxe": 7
+    },
+    "minecraft:killed": {
+      "minecraft:pig": 1,
+      "minecraft:sheep": 3,
+      "minecraft:cow": 12
+    },
+    "minecraft:picked_up": {
+      "minecraft:porkchop": 1,
+      "minecraft:dirt": 6,
+      "minecraft:cobblestone": 23,
+      "minecraft:white_wool": 3,
+      "minecraft:flint": 1,
+      "minecraft:white_bed": 1,
+      "minecraft:sugar_cane": 17,
+      "minecraft:leather": 11,
+      "minecraft:crafting_table": 3,
+      "minecraft:beef": 20,
+      "minecraft:coal": 6,
+      "minecraft:oak_log": 11,
+      "minecraft:mutton": 4
+    },
+    "minecraft:crafted": {
+      "minecraft:white_bed": 1,
+      "minecraft:furnace": 2,
+      "minecraft:stick": 16,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:oak_planks": 44,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:gravel": 1,
+      "minecraft:short_grass": 2,
+      "minecraft:oak_leaves": 1,
+      "minecraft:dirt": 5,
+      "minecraft:crafting_table": 3,
+      "minecraft:oak_log": 11,
+      "minecraft:grass_block": 1,
+      "minecraft:coal_ore": 6,
+      "minecraft:sugar_cane": 8,
+      "minecraft:stone": 23,
+      "minecraft:white_bed": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 3,
+      "minecraft:time_since_rest": 299,
+      "minecraft:walk_one_cm": 10594,
+      "minecraft:leave_game": 3,
+      "minecraft:walk_under_water_one_cm": 88,
+      "minecraft:mob_kills": 16,
+      "minecraft:play_time": 9916,
+      "minecraft:damage_dealt": 1540,
+      "minecraft:jump": 288,
+      "minecraft:time_since_death": 9916,
+      "minecraft:sprint_one_cm": 27809,
+      "minecraft:sleep_in_bed": 1,
+      "minecraft:fall_one_cm": 8975,
+      "minecraft:total_world_time": 9916,
+      "minecraft:swim_one_cm": 1086,
+      "minecraft:fly_one_cm": 77583,
+      "minecraft:walk_on_water_one_cm": 371,
+      "minecraft:crouch_one_cm": 4432,
+      "minecraft:sneak_time": 1223
+    }
+  },
+  "DataVersion": 4671
+}

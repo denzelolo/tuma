@@ -1,0 +1,35 @@
+[14:46:57] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
+[14:46:58] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- java 21
+	- minecraft 1.21.11
+[14:46:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/tuma/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:47:02] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14:47:04] [main/INFO]: Loaded 1470 recipes
+[14:47:04] [main/INFO]: Loaded 1584 advancements
+[14:47:05] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[14:47:05] [Server thread/INFO]: Loading properties
+[14:47:05] [Server thread/INFO]: Default game type: SURVIVAL
+[14:47:05] [Server thread/INFO]: Generating keypair
+[14:47:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:47:05] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[14:47:05] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed with error(-98): Address already in use
+[14:47:05] [Server thread/WARN]: Perhaps a server is already running on that port?
+[14:47:05] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.IllegalStateException: Failed to initialize server
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:793)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[14:47:05] [Server thread/ERROR]: This crash report has been saved to: /workspaces/tuma/servidor_minecraft/crash-reports/crash-2026-02-24_14.47.05-server.txt
+[14:47:05] [Server thread/INFO]: Stopping server
+[14:47:05] [Server thread/INFO]: Saving worlds
+[14:47:05] [Server thread/ERROR]: Exception stopping the server
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_3218.method_17983()" because the return value of "net.minecraft.server.MinecraftServer.method_30002()" is null
+	at knot//net.minecraft.server.MinecraftServer.method_3723(MinecraftServer.java:625)
+	at knot//net.minecraft.class_3176.method_3723(class_3176.java:337)
+	at knot//net.minecraft.server.MinecraftServer.method_3782(MinecraftServer.java:695)
+	at knot//net.minecraft.class_3176.method_3782(class_3176.java:726)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:812)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
